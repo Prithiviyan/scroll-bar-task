@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.main-container{
+    width: 50%;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.main-container h1{
+    width: 100%;
+    height: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #0F0F0F;
+    display: flex;
+   gap: 20px;
+}
+.main-container h1 span{
+    font-size: 32px;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(220, 236, 238);
+    color: #0F0F0F;
+    border-radius: 45px;
+    display: flex;
+    padding: 22px 24px;
+    gap: 20px;
+    color: rgb(23, 23, 244);
+}
+.main-container h1 img{
+    width: 22px;
+    height: 25px;
+    margin-top: 8px;
+}
+.main-container p{
+    width: 90%;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.next-container{
+    width: 50%;
+    height: 100vh;
+    margin: 50px 50px;
+}
+
+.image{
+    width: 90%;
+    height: 650px;
+    background-image: linear-gradient(to right, rgb(87, 210, 87), rgb(151, 218, 245));
+    border-radius: 10px;
+}
+.cl1{
+    width: 90%;
+    height: 650px;
+    background-image: linear-gradient(to right, rgb(210, 87, 185), rgb(245, 217, 151));
+    border-radius: 10px;
+}
+.cl2{
+    width: 90%;
+    height: 650px;
+    background-image: linear-gradient(to right, rgb(192, 210, 87), rgb(214, 151, 245));
+    border-radius: 10px;
+}
+.image img{
+    width: 450px;
+    height: 650px;
+    border-radius: 10px;
+    margin-left: 60px;
+    
+}
+
+.whole-scroll{
+    margin-top: 10px;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+
+.scroll-container{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+
+}
+
+.scrolling{
+    margin-top: 250px;
+}
+.scrolling h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0F0F0F;
+}
+.scrolling p{
+    color: #0F0F0FB3;
+    font-size: 16px;
+    font-weight: 500;
+    width: 550px;
+    height: 80px;
+}
+.claim{
+    color: #0F0F0FB3;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #177FF8 !important;
+}
